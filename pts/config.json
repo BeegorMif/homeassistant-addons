@@ -1,0 +1,19 @@
+{
+  "arch": [
+    "aarch64",
+    "amd64"
+  ],
+  "description": "Sync & Scrobble watched data between Plex and Trakt",
+  "environment": {
+    "PGID": "0",
+    "PUID": "0"
+  },
+  "init": false,
+  "map": [
+    "config:rw"
+  ],
+  "name": "Plex Trakt Sync",
+  "slug": "pts_custom",
+  "url": "https://github.com/BeegorMif/hassio-addons",
+  "version": "0.0.2"
+}
